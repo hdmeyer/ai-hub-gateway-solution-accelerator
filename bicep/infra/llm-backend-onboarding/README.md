@@ -148,7 +148,7 @@ param llmBackendConfig = [
     backendType: 'ai-foundry'
     endpoint: 'https://aif-RESOURCE_TOKEN-1.services.ai.azure.com/models'
     authScheme: 'managedIdentity'
-    supportedModels: ['gpt-5', 'DeepSeek-R1']
+    supportedModels: ['gpt-4.1', 'DeepSeek-R1']
     priority: 2
     weight: 50
   }

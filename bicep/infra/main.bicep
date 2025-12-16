@@ -366,14 +366,6 @@ param aiFoundryModelsConfig array = [
     aiserviceIndex: 0
   }
   {
-    name: 'gpt-5'
-    publisher: 'OpenAI'
-    version: '2025-08-07'
-    sku: 'GlobalStandard'
-    capacity: 100
-    aiserviceIndex: 1
-  }
-  {
     name: 'DeepSeek-R1'
     publisher: 'DeepSeek'
     version: '1'
@@ -445,13 +437,13 @@ var modelsGroupedByInstance = [for (instance, i) in aiFoundryInstances: {
     weight: 100
   }
   // AI Foundry Instance 1 - Location: eastus2
-  // Models: gpt-5, DeepSeek-R1
+  // Models: DeepSeek-R1
   {
     backendId: 'aif-REPLACE-1'
     backendType: 'ai-foundry'
     endpoint: 'https://aif-REPLACE-1.services.ai.azure.com/models'
     authScheme: 'managedIdentity'
-    supportedModels: ['gpt-5', 'DeepSeek-R1']
+    supportedModels: ['DeepSeek-R1']
     priority: 1
     weight: 100
   }

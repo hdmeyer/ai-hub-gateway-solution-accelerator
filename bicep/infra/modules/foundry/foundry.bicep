@@ -25,7 +25,7 @@
 //                  {"name": "gpt-4.1-mini", "publisher": "OpenAI", "version": "2025-04-14", "sku": "GlobalStandard", "capacity": 20, "aiservice": "foundry2"},
 //                  {"name": "gpt-4.1-nano", "publisher": "OpenAI", "version": "2025-04-14", "sku": "GlobalStandard", "capacity": 20, "aiservice": "foundry2"},
 //                  {"name": "model-router", "publisher": "OpenAI", "version": "2025-05-19", "sku": "GlobalStandard", "capacity": 20, "aiservice": "foundry3"},
-//                  {"name": "gpt-5", "publisher": "OpenAI", "version": "2025-08-07", "sku": "GlobalStandard", "capacity": 20, "aiservice": "foundry3"},
+//                  {"name": "gpt-4.1", "publisher": "OpenAI", "version": "2025-08-07", "sku": "GlobalStandard", "capacity": 20, "aiservice": "foundry3"},
 //                  {"name": "DeepSeek-R1", "publisher": "DeepSeek", "version": "1", "sku": "GlobalStandard", "capacity": 20, "aiservice": "foundry3"}]
 
 @description('Configuration array for AI Foundry resources')

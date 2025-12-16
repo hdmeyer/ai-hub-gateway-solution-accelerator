@@ -99,7 +99,6 @@ param llmBackendConfig = [
     endpoint: 'https://aif-RESOURCE_TOKEN-1.services.ai.azure.com/models' // Replace with your secondary AI Foundry endpoint
     authScheme: 'managedIdentity'
     supportedModels: [
-      'gpt-5'
       'DeepSeek-R1'
     ]
     priority: 2

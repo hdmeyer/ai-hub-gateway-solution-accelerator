@@ -252,14 +252,6 @@ param aiFoundryModelsConfig = [
   }
   // Models for AI Foundry Instance 1
   {
-    name: 'gpt-5'
-    publisher: 'OpenAI'
-    version: '2025-08-07'
-    sku: 'GlobalStandard'
-    capacity: 100
-    aiserviceIndex: 1
-  }
-  {
     name: 'DeepSeek-R1'
     publisher: 'DeepSeek'
     version: '1'
